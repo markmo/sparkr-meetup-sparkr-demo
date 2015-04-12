@@ -254,7 +254,7 @@ persist(estDF, "MEMORY_ONLY")
 count(estDF)
 </code></pre>
 
-# Convert to R data.frames
+Convert to R data.frames
 
 <pre><code>
 train <- collect(trainDF) ; train$ID <- NULL
